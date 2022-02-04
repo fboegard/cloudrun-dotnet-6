@@ -10,10 +10,7 @@
 
 To deploy to Cloud Run, use the button above, or the following steps:
 
-* Build with `gcloud builds submit --tag gcr.io/$PROJECT_ID/dotnet6`
-* Deploy with `gcloud run deploy --image gcr.io/$PROJECT_ID/dotnet6`
-
-Replacing `$PROJECT_ID` with your Google Cloud project ID.
+* Build and deploy with `gcloud builds submit --source .`
 
 ## Running locally
 
