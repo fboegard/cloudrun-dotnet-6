@@ -19,6 +19,6 @@ var url = $"http://0.0.0.0:{port}";
 
 var app = builder.Build();
 
-app.MapGet("/", () => $"Hello .NET {Environment.Version.ToString()}!");
+app.MapGet("/", () => $"Hello FRedrik .NET {Environment.Version.ToString()}!");
 
 app.Run(url);
